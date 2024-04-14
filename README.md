@@ -2,6 +2,8 @@
 This is for the project submission of UIUC 2024 Spring CS598 DLH
 Team member haixu2@illinois.edu, kex7@illinois.edu, sw67@illinois.edu
 
+Github repo: https://github.com/KeXu1739/UIUCDLH_project
+
 Due to data DUA and size of the processed file, we will not include the processed data file here, but provide a guide on how to use data cleaning pipeline.
 
 # Environment
