@@ -1,6 +1,9 @@
 # UIUCDLH_project
-This is for the project submission of UIUC 2024 Spring CS598 DLH
-Team member haixu2@illinois.edu, kex7@illinois.edu, sw67@illinois.edu
+This is for the project submission of UIUC 2024 Spring CS598 DLH \
+Team 23 \
+haixu2@illinois.edu\
+kex7@illinois.edu\
+sw67@illinois.edu
 
 Github repo: https://github.com/KeXu1739/UIUCDLH_project
 
