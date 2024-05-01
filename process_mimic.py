@@ -462,7 +462,7 @@ if __name__ == '__main__':
     FILE_STR = 'CHARTEVENTS_reduced'
     mp = MimicParser()
 
-    # mp.reduce_total(ROOT + 'CHARTEVENTS.csv')
+    mp.reduce_total(ROOT + 'CHARTEVENTS.csv')
     mp.create_day_blocks(ROOT+ FOLDER + FILE_STR + '.csv')
     mp.add_admissions_columns(ROOT + FOLDER + FILE_STR + '_24_hour_blocks.csv')
     mp.add_patient_columns(ROOT + FOLDER + FILE_STR + '_24_hour_blocks_plus_admissions.csv')

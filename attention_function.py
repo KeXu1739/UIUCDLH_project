@@ -92,7 +92,13 @@ def attention_3d_block_time_features(inputs, TIME_STEPS):
     output_attention_mul = multiply([inputs, a_probs])
     return output_attention_mul
 
-def attention_spatial_block(inputs):
+def attention_none(inputs, TIME_STEPS):
+    '''
+    Do not apply any attention, return inputs directly
+    '''
+    return inputs
+
+def attention_spatial_block(inputs, TIME_STEPS):
     """
     inputs.shape = (batch_size, time_steps, input_dim)
     """ 
