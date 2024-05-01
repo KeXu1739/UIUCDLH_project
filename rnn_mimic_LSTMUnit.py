@@ -493,7 +493,7 @@ if __name__ == "__main__":
     
     # attns = [Attention_TS, Attention_None, Attention] # attention functions
     targets_dict = {"MI":13, "VANCOMYCIN":14, "SEPSIS":17} # here we use the parameter from original training set up
-    LSTMs = [64, 128, 512, 1024] # LSTM unit, original paper uses 256
+    LSTMs = [64, 128, 256, 512, 1024] # LSTM unit, original paper uses 256
       
     # change number of LSTM unit, assuming Attention model in paper
     for target,epoch in targets_dict.items():
