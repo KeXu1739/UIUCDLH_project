@@ -11,7 +11,7 @@ Due to data DUA and size of the processed file, we will not include the processe
 
 # Environment
 Use env.yaml under root in conda to create the virtual environment.
-Command: conda env create -f env.yaml
+Command: conda env create -f Python_environment.yaml
 Virtual environment name is "tensorflow" as shown in the file.
 
 # Data Processing
