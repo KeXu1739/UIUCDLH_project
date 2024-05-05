@@ -11,7 +11,7 @@ Video: https://mediaspace.illinois.edu/media/t/1_3xojcmph
 Due to data DUA and size of the processed file, we will not include the processed data file here, but provide a guide on how to use data cleaning pipeline.
 
 # Environment
-Use env.yaml under root in conda to create the virtual environment.
+Use Python_environment.yaml under root in conda to create the virtual environment.
 Command: conda env create -f Python_environment.yaml
 Virtual environment name is "tensorflow" as shown in the file.
 
