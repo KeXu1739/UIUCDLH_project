@@ -33,7 +33,7 @@ To get the models for ablation study, please follow the runs specification below
 # Results
 The different part of the results can be obtained in the following ways:
 
-1. The results replicating the original paper: run the code blocks from ./Final_report.ipynb, plots and results will be shown directly in the notebook.
+1. The results replicating the original paper: run ipynb attention_mimic_implementation-final.ipynb, and to get results in report run the code blocks from ./Final_report.ipynb, plots and results will be shown directly in the notebook.
 2. Varying LSTM unit as ablation study: run ./LSTMUnit_scripts.ipynb, the comparison of the ROC AUC curve will be shown in the notebook (which is not shown in the final report), together with a stats_LSTMUnits.csv file that records all the roc_auc value from different models, the original output is saved under ./output_for_report folder. The roc_auc is summarized in the ablation study section of the final report.
 
 3. Varying hyper-paramters as ablation study: we ran the model using .bat files and picked the accuracy results from the output directly, a portion of the original intermediate results are saved into .txt files under ./output_for_report.
